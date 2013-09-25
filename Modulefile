@@ -7,3 +7,5 @@ summary 'Puppet Module for managing a Bukkit/Minecraft Server'
 description 'Puppet Module for managing a Bukkit/Minecraft Server'
 project_page 'https://github.com/apowers/puppet-minecraft.git'
 
+dependency 'puppetlabs/stdlib', '>= 0.1.6'
+

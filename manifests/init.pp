@@ -24,18 +24,22 @@
 # === Examples
 #
 #  class { minecraft:
-#    servers => [ 'pool.ntp.org', 'ntp.local.company.com' ],
+#    install_dir => '/opt/minecraft',
 #  }
 #
 # === Authors
 #
-# Author Name <author@domain.com>
+# Atom Powers <atom.powers@gmail.com>
 #
 # === Copyright
 #
-# Copyright 2013 Your name here, unless otherwise noted.
+# Copyright 2013 Atom Powers, unless otherwise noted.
 #
-class minecraft {
+class minecraft (
+  $install_dir = '/opt/minecraft'
+){
+include minecraft::params
 
+  ensure_packages('defalut-jdk', 'wget')
 
 }

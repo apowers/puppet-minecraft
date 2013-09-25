@@ -1,0 +1,6 @@
+#
+#
+class minecraft::install (
+) {
+
+}
