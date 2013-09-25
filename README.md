@@ -1,4 +1,5 @@
--minecraft_sever
+puppet-minecraft
 ================
 
-Scripts for managing a Minecraft Server
+Puppet Module for managing a Minecraft Server
+
